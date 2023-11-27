@@ -1,0 +1,22 @@
+.error-box{
+    background-color: red;
+    margin-top: 10px;
+    margin-right: 800px;
+    border-radius: 10px;
+}
+
+.error-item{
+    padding: 5px;
+    margin-left: 50px;
+    color: white;
+}
+
+.bg-user{
+    background-color: rgb(142, 238, 238);
+
+}
+
+.bg-admin{
+    background-color: wheat;
+
+}
