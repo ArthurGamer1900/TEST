@@ -1,0 +1,86 @@
+@media screen and (min-width: 440px){
+    .menu > ul > a > li:hover{
+        color: rgb(128, 15, 0);
+        transition: 0.3s;
+    }
+    .final > a > h1:hover{
+        color: rgb(119, 128, 0);
+        transition: 0.2s;
+    }
+    .social_topo{
+        display: flex;
+        justify-content: right;
+        padding-bottom: 80px;
+    }
+    .social_topo > ul{
+        display: flex;
+        flex-direction: row;
+    }
+    .opcoes_topo > ul{
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+    }
+    .opcoes_topo > ul > a:hover{
+        color: rgb(119, 128, 0);
+        transition: 0.2s;
+    }   
+    .social_topo > ul > a:hover {
+        color: rgb(119, 128, 0);
+        transition: 0.2s;
+    }
+}
+@media screen and (min-width: 680px) and (max-width: 1024px) {
+    .principal_imagens{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .principal_imagens > img{
+        width: 200px;
+        height: 150px;
+    }
+    .resumo_texto > h1{
+        font-size: 35px;
+    }
+    .resumo_texto > p{
+        font-size: 20px;
+    }
+    .resumo_imagem > img{
+        width: 200px;
+        height: 170px;
+      
+    }
+    .principal_imagens > img:hover{
+        transform: scale(1.1);
+        transition: 0.3s;
+    }
+}
+@media screen and (min-width: 1025px) {
+    .principal_imagens{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .principal_imagens > img{
+        width: 300px;
+        height: 200px;
+    }
+    .resumo_imagem > img{
+        width: 250px;
+        height: 200px;
+    }
+    .resumo_texto > h1{
+        font-size: 45px;
+    }
+    .resumo_texto > p{
+        font-size: 30px;
+    }
+    .principal_imagens > img:hover{
+        transform: scale(1.1);
+        transition: 0.3s;
+    }
+
+}

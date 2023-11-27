@@ -1,0 +1,133 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: tahoma;
+}
+
+.icon-social{
+    display:flex;
+    justify-content: flex-end;
+    gap: 10px;
+    padding: 10px;
+}
+
+a{
+    color: black;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+a:hover{
+    color: orange;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.logo-menu{
+    display:flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: -30px;
+}
+
+.item-menu{
+    display:flex;
+    gap: 10px;
+    list-style: none;
+    font-size: 12px;
+    margin-top: 80px;
+}
+
+.top-banner{
+    margin-top: 10px;
+    max-width: 1224.5px;
+}
+
+.section-about{
+    background-image: url("viking-4601896_1280.jpg");
+    padding: 50px;
+    margin-top: -110px;
+}
+
+.about{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.image-about{
+    max-width: 250px;
+    margin-right: 100px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 50px blue;
+}
+
+.text-about{
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+    color: blue;
+}
+
+.title-destaques{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.Destaques{
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+    margin-bottom: 100px;
+}
+
+.image-destaques{
+    border-radius: 10px;
+    width: 200px;
+    transition: 0.3s;
+}
+
+.image-destaques:hover{
+   transform:scale(1.2);
+   transition: 0.3s;
+   cursor:pointer;
+}
+
+.valhalla-footer{
+   background-color: blue; 
+   display: flex; 
+   justify-content: space-evenly;
+}
+
+.message-contato{
+   display: flex;
+   flex-direction: column;
+   margin-top: 20px;
+}
+
+button{
+   width: 40px;
+   background-color: white;
+   border-radius: 10px;
+   border: none;
+   margin-top: 5px;
+   cursor: pointer;
+   margin-bottom: 20px;
+}
+
+.logo-footer{
+    width: 300px;
+    height: 200px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.input-contato{
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+}

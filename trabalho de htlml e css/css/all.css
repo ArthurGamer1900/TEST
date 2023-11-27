@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+a:link{
+    text-decoration: none;
+}
+.imagem_inicial {
+    width: 100%;
+    height: 0;
+    padding-bottom: 40%; 
+    background-image: url(/images/hamburger-1238246_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.topo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    gap: 10px;
+    justify-content: space-between;
+}
+.logo_topo >  img {
+    width: 180px;
+    height: 150px;
+}
+.opcoes_topo > ul{
+    list-style: none;
+}
+.social_topo > ul{
+    gap: 10px;
+    list-style: none;
+}
+.resumo{
+    color: blue;
+    background-image: url(/css/viking-4601896_1280.jpg);
+    background-repeat: no-repeat;
+    background-position: center-center;
+    background-size: cover;
+    position: relative;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 400px;
+    gap: 10px;
+}
+.resumo_imagem > img{
+    width: 150px;
+    height: 150px;
+    border-radius: 1rem;
+}
+.principal{
+    height: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.principal_imagens{
+    padding-top: 20px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.principal_imagens > img{
+    width: 150px;
+    border-radius: 10px;
+}
+.final{
+    background-color: blue;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+.final > img{
+    width: 180px;
+    height: 150px;
+}
+.final > a > h1{
+    font-size: 15px;
+}
+.final > a{
+    color: white;
+}
+.opcoes_topo > ul > a{
+    color: black;
+}
+.social_topo > ul > a {
+    color: black;
+}
